@@ -1,11 +1,9 @@
-package entities;
+package com.edu.coworker.domine.entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.OneToMany;
-import lombok.Getter;
+import jakarta.persistence.*;
+import lombok.*;
 
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity

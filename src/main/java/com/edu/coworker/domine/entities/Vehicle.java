@@ -1,6 +1,7 @@
-package entities;
+package com.edu.coworker.domine.entities;
 
 import jakarta.persistence.*;
+import lombok.*;
 
 import java.util.Set;
 

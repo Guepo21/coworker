@@ -1,14 +1,17 @@
-package entities;
+package com.edu.coworker.domine.entities;
 
 import jakarta.persistence.*;
+import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
+import java.util.HashSet;
 import java.util.Set;
-
 @Entity
 @Table(name = "reservations")
-@Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder
+@Getter  @Setter  @NoArgsConstructor
+@AllArgsConstructor
+@Builder
 
 public class Reservation {
     @Id
